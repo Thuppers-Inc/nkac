@@ -31,7 +31,7 @@
               </div>
               <div class="col-md-6 col-lg-4 all-services">
                 <div class="front-thumbnail">
-                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/service-2.jpg')}}" alt=""></a></figure> 
+                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/service-3.jpg')}}" alt=""></a></figure> 
                     <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/deal.png')}}" alt=""></figure> </div>
                     <div class="figure-caption">
                         <h4>Organisation & Gestion des Risques</h4>
@@ -41,7 +41,7 @@
               </div>
               <div class="col-md-6 col-lg-4 all-services responsive-center">
                 <div class="front-thumbnail">
-                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/service-3.jpg')}}" alt=""></a></figure> 
+                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/service-2.jpg')}}" alt=""></a></figure> 
                     <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/document.png')}}" alt=""></figure> </div>
                     <div class="figure-caption">
                         <h4>Tax & Assistance Juridique</h4>
@@ -61,7 +61,7 @@
               </div>
               <div class="col-md-6 col-lg-4 all-services bottom-box">
                 <div class="front-thumbnail">
-                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/service-5.jpg')}}" alt=""></a></figure> 
+                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/service-6.jpg')}}" alt=""></a></figure> 
                     <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/saved.png')}}" alt=""></figure> </div>
                     <div class="figure-caption">
                         <h4>Formation</h4>
@@ -82,92 +82,6 @@
             </div>
         </div>
 
-        <!-- Détails des services -->
-        <div class="container">
-            <div class="section-title">
-                <h2>Détails de Nos Services</h2>
-                <hr class="center">
-                <p>Une expertise complète pour tous vos besoins</p>
-            </div>
-            
-            <div class="row mb-5">
-                <div class="col-lg-6">
-                    <h3>🏢 Ingénierie Financière</h3>
-                    <ul class="list-unstyled">
-                        <li>• Évaluation d'entreprises et d'actifs</li>
-                        <li>• Structuration de levée de fonds</li>
-                        <li>• Réalisation de Business Plan</li>
-                        <li>• Commissariat aux apports, à la fusion et à la scission</li>
-                        <li>• Assistance à la production de reportings (Tableaux de bord, comptes de résultats, tableaux de flux de trésorerie)</li>
-                        <li>• Modélisation Financière</li>
-                        <li>• Affacturage et Financement d'entreprise</li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
-                    <h3>⚖️ Organisation et Gestion des Risques (OGR)</h3>
-                    <ul class="list-unstyled">
-                        <li>• Cartographie des risques</li>
-                        <li>• Élaboration de manuels de procédures</li>
-                        <li>• Couverture du risque de change et de devises</li>
-                        <li>• Structuration & Excellence opérationnelle</li>
-                        <li>• Conduite du changement</li>
-                        <li>• Planification stratégique</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row mb-5">
-                <div class="col-lg-6">
-                    <h3>📋 Tax & Assistance Juridique</h3>
-                    <ul class="list-unstyled">
-                        <li>• Assistance juridique et fiscale à la création</li>
-                        <li>• Vérification du respect de la réglementation fiscale</li>
-                        <li>• Identification des opportunités d'optimisation fiscale</li>
-                        <li>• Diagnostic de situation fiscale</li>
-                        <li>• Relations avec l'administration fiscale</li>
-                        <li>• Pack droit des sociétés, contrats, travail</li>
-                        <li>• Pack nouvelles technologies</li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
-                    <h3>💼 Direction Financière</h3>
-                    <ul class="list-unstyled">
-                        <li>• Assistance aux opérations comptables complexes</li>
-                        <li>• Externalisation des missions d'un DAF</li>
-                        <li>• Revue des méthodes comptables</li>
-                        <li>• Documentation des processus comptables</li>
-                        <li>• Audit contractuel et d'acquisition</li>
-                        <li>• Contrôle de gestion et analyse financière</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>🎓 Formation</h3>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul class="list-unstyled">
-                                <li>• Cash management</li>
-                                <li>• Gestion du BFR</li>
-                                <li>• Amélioration de la trésorerie</li>
-                                <li>• Risk Management</li>
-                                <li>• Gouvernance et SI</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul class="list-unstyled">
-                                <li>• Comptabilité Générale, Analytique</li>
-                                <li>• Contrôle de gestion</li>
-                                <li>• Analyse financière</li>
-                                <li>• Logiciels de gestion comptable/paie/immobilisations</li>
-                                <li>• Gestion commerciale</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         
         <div class="container-fluid counter-parallax">
             <div class="container">
