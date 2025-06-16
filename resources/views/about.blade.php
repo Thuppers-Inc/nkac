@@ -111,59 +111,61 @@
               </div>
               <div class="col-md-12 col-lg-8">
                 <div class="row">
-                  <div class="team-slider responsive">
-                      <div class="col-md-4">
-                          <div class="team-card-3">
-                             <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
-                             <div class="caption">
-                                <h4>Ndongo K.A. CAMARA</h4>
-                                <p>Fondateur et Gérant</p>
-                             </div> 
+                  <div class="team-slider">
+                      <div class="row">
+                          <div class="col-md-4">
+                              <div class="team-card-3">
+                                 <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
+                                 <div class="caption">
+                                    <h4>Ndongo K.A. CAMARA</h4>
+                                    <p>Fondateur et Gérant</p>
+                                 </div> 
+                              </div>
                           </div>
-                      </div>
-                      <div class="col-md-4">
-                          <div class="team-card-3">
-                             <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
-                             <div class="caption">
-                                <h4>Gaoussou BAKAYOKO</h4>
-                                <p>Country Manager</p>
-                             </div> 
+                          <div class="col-md-4">
+                              <div class="team-card-3">
+                                 <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
+                                 <div class="caption">
+                                    <h4>Gaoussou BAKAYOKO</h4>
+                                    <p>Country Manager</p>
+                                 </div> 
+                              </div>
                           </div>
-                      </div>
-                      <div class="col-md-4">
-                          <div class="team-card-3">
-                             <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
-                             <div class="caption">
-                                <h4>Expert Comptable</h4>
-                                <p>Corporate Finance</p>
-                             </div> 
+                          <div class="col-md-4">
+                              <div class="team-card-3">
+                                 <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
+                                 <div class="caption">
+                                    <h4>Expert Comptable</h4>
+                                    <p>Corporate Finance</p>
+                                 </div> 
+                              </div>
                           </div>
-                      </div>
-                      <div class="col-md-4">
-                          <div class="team-card-3">
-                             <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
-                             <div class="caption">
-                                <h4>Manager Conseil</h4>
-                                <p>Stratégie & RH</p>
-                             </div> 
+                          <div class="col-md-4">
+                              <div class="team-card-3">
+                                 <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
+                                 <div class="caption">
+                                    <h4>Manager Conseil</h4>
+                                    <p>Stratégie & RH</p>
+                                 </div> 
+                              </div>
                           </div>
-                      </div>
-                      <div class="col-md-4">
-                          <div class="team-card-3">
-                             <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
-                             <div class="caption">
-                                <h4>Consultante Junior</h4>
-                                <p>Conseil Finance</p>
-                             </div> 
+                          <div class="col-md-4">
+                              <div class="team-card-3">
+                                 <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
+                                 <div class="caption">
+                                    <h4>Consultante Junior</h4>
+                                    <p>Conseil Finance</p>
+                                 </div> 
+                              </div>
                           </div>
-                      </div>
-                      <div class="col-md-4">
-                          <div class="team-card-3">
-                             <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
-                             <div class="caption">
-                                <h4>Analyste Financier</h4>
-                                <p>Finance Confirmé</p>
-                             </div> 
+                          <div class="col-md-4">
+                              <div class="team-card-3">
+                                 <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
+                                 <div class="caption">
+                                    <h4>Analyste Financier</h4>
+                                    <p>Finance Confirmé</p>
+                                 </div> 
+                              </div>
                           </div>
                       </div>
                   </div>
@@ -177,13 +179,13 @@
                 <div class="row">                    
                     <div class="col-sm-3 col-md-3">
                         <div class="counter-statistics">
-                            <div class="counter">150+</div>
+                            <div class="counter">+150</div>
                             <h5>PROJETS RÉALISÉS</h5>
                         </div>
                     </div>
                     <div class="col-sm-3 col-md-3">
                         <div class="counter-statistics">
-                            <div class="counter">200+</div>
+                            <div class="counter">200</div>
                             <h5>CLIENTS SATISFAITS</h5>
                         </div>
                     </div>
@@ -195,7 +197,7 @@
                     </div>
                     <div class="col-sm-3 col-md-3">
                         <div class="counter-statistics">
-                            <div class="counter">15+</div>
+                            <div class="counter">15</div>
                             <h5>ANNÉES AU SÉNÉGAL</h5>
                         </div>
                     </div>
