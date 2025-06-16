@@ -394,4 +394,80 @@
   <!-- Références, stats, témoignages, blog restent similaires, à personnaliser plus tard -->
 </section>
 
+<section>
+  <div class="container">
+    <div class="section-title">
+      <h2>Actualités & Conseils</h2>
+      <hr class="center">
+      <p>Découvrez nos publications récentes en comptabilité, fiscalité, audit et finance.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="front-blogs">
+          <div class="thumb-pic">
+            <figure class="post-prev-thumb">
+              <a href="#"><img src="{{ asset('assets/img/images/img4.jpg') }}" alt=""></a>
+            </figure>
+            <div class="date-label">
+              <h6>12 JUIN 2025</h6>
+            </div>
+          </div>
+          <div class="post-caption">
+            <h4><a href="#">5 erreurs fiscales à éviter en entreprise</a></h4>
+            <p>Dans ce billet, nos experts mettent en lumière les fautes courantes en matière de fiscalité qui peuvent coûter cher aux entreprises ou compromettre leur conformité.</p>
+            <h5><a href="#">LIRE PLUS</a></h5>
+          </div>
+        </div>  
+      </div>
+      
+      <div class="col-lg-4">
+        <div class="front-blogs">
+          <div class="thumb-pic">
+            <figure class="post-prev-thumb">
+              <a href="#"><img src="{{ asset('assets/img/images/img5.jpg') }}" alt=""></a>
+            </figure>
+            <div class="date-label">
+              <h6>3 JUIN 2025</h6>
+            </div>
+          </div>
+          <div class="post-caption">
+            <h4><a href="#">Pourquoi un audit financier annuel est essentiel</a></h4>
+            <p>L’audit ne concerne pas uniquement les grandes structures. Il apporte une transparence essentielle à toute organisation, publique ou privée.</p>
+            <h5><a href="#">LIRE PLUS</a></h5>
+          </div>
+        </div>  
+      </div>
+
+      <div class="col-lg-4">
+        <div class="news-feed">
+          <div class="feed-box">
+            <figure class="feed-thumb"><a href="#"><img src="{{ asset('assets/img/images/thumb1.jpg') }}" alt=""></a></figure>
+            <div class="post-caption">
+              <h5><a href="#">Comprendre les obligations fiscales en Afrique de l’Ouest</a></h5>
+              <p>28 Mai 2025</p>
+            </div>  
+          </div>
+          <hr class="feed">
+          <div class="feed-box">
+            <figure class="feed-thumb"><a href="#"><img src="{{ asset('assets/img/images/thumb2.jpg') }}" alt=""></a></figure>
+            <div class="post-caption">
+              <h5><a href="#">Formation : Maîtriser la comptabilité OHADA</a></h5>
+              <p>16 Mai 2025</p>
+            </div>  
+          </div>
+          <hr class="feed">
+          <div class="feed-box">
+            <figure class="feed-thumb"><a href="#"><img src="{{ asset('assets/img/images/thumb3.jpg') }}" alt=""></a></figure>
+            <div class="post-caption">
+              <h5><a href="#">Comment réussir une mission d’audit interne</a></h5>
+              <p>2 Mai 2025</p>
+            </div>  
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+
+</section>
+
 @endsection
