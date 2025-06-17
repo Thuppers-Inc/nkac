@@ -106,30 +106,6 @@
                     </form>
                 </div>
 
-                <!-- Informations supplémentaires -->
-                <div class="mt-4">
-                    <h4>📋 Nos Horaires d'Ouverture</h4>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p><strong>Lundi - Vendredi:</strong><br>8h00 - 18h00</p>
-                        </div>
-                        <div class="col-md-6">
-                            <p><strong>Samedi:</strong><br>9h00 - 13h00 (sur RDV)</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mt-4">
-                    <h4>🎯 Contact Direct</h4>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p><strong>Gaoussou BAKAYOKO</strong><br>
-                            Country Manager – Conseil - Audit<br>
-                            📱 +225 07 57 40 39 60<br>
-                            ✉️ gaoussou.bakayoko@nkac-wa.com</p>
-                        </div>
-                    </div>
-                </div>
               </div>
             </div>
 
@@ -143,49 +119,6 @@
                 </div>
             </div>
 
-            <!-- Section zones d'intervention -->
-            <div class="row mt-4">
-                <div class="col-lg-12">
-                    <h3>🌍 Nos Zones d'Intervention</h3>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <h5>Côte d'Ivoire</h5>
-                            <ul class="list-unstyled">
-                                <li>• Abidjan (siège)</li>
-                                <li>• Bouaké</li>
-                                <li>• San Pedro</li>
-                                <li>• Yamoussoukro</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <h5>Sénégal</h5>
-                            <ul class="list-unstyled">
-                                <li>• Dakar</li>
-                                <li>• Thiès</li>
-                                <li>• Saint-Louis</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <h5>Afrique de l'Ouest</h5>
-                            <ul class="list-unstyled">
-                                <li>• Mali</li>
-                                <li>• Burkina Faso</li>
-                                <li>• Ghana</li>
-                                <li>• Togo</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <h5>Interventions</h5>
-                            <ul class="list-unstyled">
-                                <li>• Mission ponctuelle</li>
-                                <li>• Accompagnement long terme</li>
-                                <li>• Formation in-situ</li>
-                                <li>• Audit à distance</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
        
     </section>
