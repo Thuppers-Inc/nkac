@@ -23,10 +23,22 @@
                     <hr class="left">
                     <p>NKAC CONSULTING WEST AFRICA, filiale de NKAC AUDIT ET CONSEIL, accompagne et conseille ses clients dans la réalisation d'opérations financières mais également sur le plan informatique, organisationnel, stratégique, opérationnel, juridique et fiscal.</p>
                     <p>Vous êtes PMEs, Entreprises de grandes tailles, Entrepreneurs ou encore Fonds d'investissement, NKAC CONSULTING WEST AFRICA met à votre disposition toute son expertise pour assurer le succès de votre organisation.</p>
-                    <p><a class="btn btn-custom" href="{{route('services')}}" role="button">DÉCOUVRIR NOS SERVICES</a></p>
+                    
+                    <!-- Boutons d'action -->
+                    <div class="about-actions">
+                        <a class="btn btn-custom" href="{{route('services')}}" role="button">DÉCOUVRIR NOS SERVICES</a>
+                        
+                        <!-- Bouton de lecture vidéo -->
+                        <button class="video-play-btn ml-3" data-toggle="modal" data-target="#videoModal">
+                          <div class="play-icon">
+                            <i class="fa fa-play"></i>
+                          </div>
+                          <span class="play-text">Notre histoire</span>
+                        </button>
+                    </div>
                 </div>  
               </div>
-              <div class="col-lg-6"><figure class="about-pic"><img src="{{asset('assets/img/images/img6.jpg')}}" alt="NKAC Consulting"></figure> </div>
+              <div class="col-lg-6"><figure class="about-pic"><img src="{{asset('assets/img/images/conseil-strategique.jpg')}}" alt="NKAC Consulting"></figure> </div>
             </div>
             <hr class="about">
             <div class="front-options about-services">
@@ -106,68 +118,100 @@
                   <p><strong>ENGAGEMENT :</strong> Le fondement de toutes nos actions, être engagé à votre service.<br><br>
                   <strong>PROFESSIONNALISME :</strong> Le respect des normes et la maîtrise technique.<br><br>
                   <strong>PRAGMATISME :</strong> Pas de complexité inutile mais la volonté d'être clair et opérationnel.</p>
+                  
                   <figure class="signature"><img src="{{asset('assets/img/images/signature.png')}}" alt=""></figure>
                 </div>
               </div>
               <div class="col-md-12 col-lg-8">
-                <div class="row">
-                  <div class="team-slider">
-                      <div class="row">
-                          <div class="col-md-4">
-                              <div class="team-card-3">
-                                 <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
-                                 <div class="caption">
-                                    <h4>Ndongo K.A. CAMARA</h4>
-                                    <p>Fondateur et Gérant</p>
-                                 </div> 
+                <div class="leadership-dsection">
+                  {{-- <div class="section-header text-center mb-5">
+                    <h3 class="leadership-title">Notre Équipe Dirigeante</h3>
+                    <p class="leadership-subtitle">Des experts reconnus au service de votre réussite</p>
+                  </div> --}}
+                  <div class="row">
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                      <div class="leadership-card">
+                        {{-- <div class="featured-badge">Country Manager</div> --}}
+                        <div class="card-image-wrapper">
+                          <figure class="leadership-photo">
+                            <img src="{{asset('assets/img/images/m-bakayoko.jpg')}}" alt="Gaoussou BAKAYOKO">
+                            <div class="image-overlay">
+                              <div class="social-links">
+                                <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-envelope"></i></a>
                               </div>
+                            </div>
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <h4 class="member-name">Gaoussou BAKAYOKO</h4>
+                          <p class="member-role">Country Manager</p>
+                          <div class="member-expertise">
+                            <span class="expertise-tag">Stratégie</span>
+                            <span class="expertise-tag">Management</span>
                           </div>
-                          <div class="col-md-4">
-                              <div class="team-card-3">
-                                 <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
-                                 <div class="caption">
-                                    <h4>Gaoussou BAKAYOKO</h4>
-                                    <p>Country Manager</p>
-                                 </div> 
-                              </div>
-                          </div>
-                          <div class="col-md-4">
-                              <div class="team-card-3">
-                                 <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
-                                 <div class="caption">
-                                    <h4>Expert Comptable</h4>
-                                    <p>Corporate Finance</p>
-                                 </div> 
-                              </div>
-                          </div>
-                          <div class="col-md-4">
-                              <div class="team-card-3">
-                                 <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
-                                 <div class="caption">
-                                    <h4>Manager Conseil</h4>
-                                    <p>Stratégie & RH</p>
-                                 </div> 
-                              </div>
-                          </div>
-                          <div class="col-md-4">
-                              <div class="team-card-3">
-                                 <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
-                                 <div class="caption">
-                                    <h4>Consultante Junior</h4>
-                                    <p>Conseil Finance</p>
-                                 </div> 
-                              </div>
-                          </div>
-                          <div class="col-md-4">
-                              <div class="team-card-3">
-                                 <figure class="team-photo"><img src="{{asset('assets/img/images/profile.jpg')}}" alt=""></figure>
-                                 <div class="caption">
-                                    <h4>Analyste Financier</h4>
-                                    <p>Finance Confirmé</p>
-                                 </div> 
-                              </div>
-                          </div>
+                          {{-- <p class="member-description">
+                            Expert en développement commercial et gestion d'équipes avec plus de 10 ans d'expérience.
+                          </p> --}}
+                        </div>
                       </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                      <div class="leadership-card featurede">
+                        {{-- <div class="featured-badge">Fondateur</div> --}}
+                        <div class="card-image-wrapper">
+                          <figure class="leadership-photo">
+                            <img src="{{asset('assets/img/images/m-camara.png')}}" alt="Ndongo K.A. CAMARA">
+                            <div class="image-overlay">
+                              <div class="social-links">
+                                <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-envelope"></i></a>
+                              </div>
+                            </div>
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <h4 class="member-name">Ndongo K.A. CAMARA</h4>
+                          <p class="member-role">Fondateur et Gérant</p>
+                          <div class="member-expertise">
+                            <span class="expertise-tag">Audit</span>
+                            <span class="expertise-tag">Finance</span>
+                            <span class="expertise-tag">Leadership</span>
+                          </div>
+                          {{-- <p class="member-description">
+                            30 ans d'expérience en audit et conseil, expert reconnu dans l'espace OHADA.
+                          </p> --}}
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                      <div class="leadership-card">
+                        <div class="card-image-wrapper">
+                          <figure class="leadership-photo">
+                            <img src="{{asset('assets/img/images/mme-nene.png')}}" alt="NENE">
+                            <div class="image-overlay">
+                              <div class="social-links">
+                                <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fa fa-envelope"></i></a>
+                              </div>
+                            </div>
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <h4 class="member-name">NENE</h4>
+                          <p class="member-role">Experte Comptable Corporate</p>
+                          <div class="member-expertise">
+                            <span class="expertise-tag">Comptabilité</span>
+                            <span class="expertise-tag">Fiscalité</span>
+                          </div>
+                          {{-- <p class="member-description">
+                            Spécialisée en comptabilité des grandes entreprises et optimisation fiscale.
+                          </p> --}}
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -303,9 +347,65 @@
             </div>
         </div>
     </section>
+
+    <!-- Modal Vidéo -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="videoModalLabel">Notre Histoire - NKAC Consulting WA</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-responsive embed-responsive-16by9">
+              <video class="embed-responsive-item" id="videoPlayer" controls>
+                <source src="{{asset('assets/videos/interview_nkac.mp4')}}" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 @endsection
 
 
 @section('scripts')
     <script src="{{asset('assets/js/team.slider.js')}}"></script>
+    
+    <script>
+        $(document).ready(function() {
+            var videoPlayer = document.getElementById('videoPlayer');
+            
+            // Quand la modal s'ouvre
+            $('#videoModal').on('shown.bs.modal', function () {
+                // Démarrer la vidéo automatiquement
+                videoPlayer.currentTime = 0;
+                videoPlayer.play().catch(function(error) {
+                    console.log("Autoplay bloqué par le navigateur:", error);
+                });
+            });
+            
+            // Quand la modal se ferme
+            $('#videoModal').on('hidden.bs.modal', function () {
+                // Arrêter et remettre à zéro la vidéo
+                videoPlayer.pause();
+                videoPlayer.currentTime = 0;
+            });
+            
+            // Gérer les erreurs de chargement vidéo
+            videoPlayer.addEventListener('error', function(e) {
+                console.error('Erreur de chargement de la vidéo:', e);
+                alert('Erreur lors du chargement de la vidéo. Veuillez réessayer.');
+            });
+            
+            // Optionnel : Afficher un message quand la vidéo est prête
+            videoPlayer.addEventListener('loadeddata', function() {
+                console.log('Vidéo chargée et prête à être lue');
+            });
+        });
+    </script>
 @endsection
