@@ -41,6 +41,7 @@
         <link rel="stylesheet" href="{{asset('assets/css/modern-carousel.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
         <link rel="stylesheet" href="{{asset('assets/fonts/font-awesome/css/font-awesome.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/slick.min.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
         
         <!-- AOS Library for scroll animations -->

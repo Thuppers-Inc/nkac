@@ -18,7 +18,7 @@
             <div class="header-left">
                 <figure class="brand" style="margin-top: -13px;">
                     {{-- <img src="{{asset('assets/img/logo.png')}}" alt="Logo NKAC"> --}}
-                    <a href="index.html">
+                    <a href="{{ route('home.index') }}">
                         <img src="{{asset('assets/img/logo.png')}}" alt="Logo NKAC" style="height: 80px;">   
                     </a>
                 </figure> 
@@ -52,7 +52,7 @@
     <nav>
         <div class="container">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html"><div class="logo-brand"><img src="{{asset('assets/img/logo.png')}}" alt=""></div></a>
+                <a class="navbar-brand" href="{{ route('home.index') }}"><div class="logo-brand"><img src="{{asset('assets/img/logo.png')}}" alt=""></div></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -74,15 +74,19 @@
                                 <li class="divider-top"></li>
                                 <li><a class="dropdown-item" href="{{route('services')}}">Tous les services</a></li>
                                 <li class="divider"></li>
-                                <li><a class="dropdown-item" href="audit.html">Audit & Contrôle</a></li>
+                                <li><a class="dropdown-item" href="{{ route('services.show', 'audit-expertise') }}">Audit & Expertise Comptable</a></li>
                                 <li class="divider"></li>
-                                <li><a class="dropdown-item" href="comptabilite.html">Comptabilité</a></li>
+                                <li><a class="dropdown-item" href="{{ route('services.show', 'conseil-fiscal') }}">Conseil Fiscal</a></li>
                                 <li class="divider"></li>
-                                <li><a class="dropdown-item" href="fiscalite.html">Fiscalité</a></li>
+                                <li><a class="dropdown-item" href="{{ route('services.show', 'conseil-financier') }}">Conseil Financier</a></li>
                                 <li class="divider"></li>
-                                <li><a class="dropdown-item" href="finance.html">Conseil financier</a></li>
+                                <li><a class="dropdown-item" href="{{ route('services.show', 'externalisation-daf') }}">Externalisation DAF</a></li>
                                 <li class="divider"></li>
-                                <li><a class="dropdown-item" href="formation.html">Formations professionnelles</a></li>
+                                <li><a class="dropdown-item" href="{{ route('services.show', 'gestion-risques') }}">Gestion des Risques</a></li>
+                                <li class="divider"></li>
+                                <li><a class="dropdown-item" href="{{ route('services.show', 'conseil-strategique') }}">Conseil Stratégique</a></li>
+                                <li class="divider"></li>
+                                <li><a class="dropdown-item" href="{{ route('services.show', 'formation-metier') }}">Formations Professionnelles</a></li>
                             </ul>
                         </li>
 
