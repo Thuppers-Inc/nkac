@@ -6,7 +6,7 @@
 
 @section('meta_keywords', 'conseil financier, audit, expertise comptable, formation, Afrique de l\'Ouest, OHADA, ingénierie financière, DAF externalisée')
 
-@section('meta_image', asset('assets/img/images/nkac-wa.jpg'))
+@section('meta_image', asset('assets/img/images/conseil-strategique.jpg'))
 
 @section('content')
 <div class="carousel">
@@ -343,7 +343,7 @@
           </div>
           <div class="col-md-12 center-div">
             <div class="image-box">
-              <figure><img src="{{asset('assets/img/images/pic2.jpg')}}" alt="Expertise financière" /></figure>
+              <figure><img src="{{asset('assets/img/images/sections-bg.jpg')}}" alt="Expertise financière" /></figure>
             </div>  
           </div>
         </div>
