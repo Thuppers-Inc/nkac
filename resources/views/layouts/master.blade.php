@@ -6,13 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
         
-		<!-- ==============================================
-		TITLE AND META TAGS
-		=============================================== -->
+		<!-- Primary Meta Tags -->
 		<title>@yield('title', 'NKAC CONSULTING WA - Conseil en Entreprise')</title>
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+        <meta name="title" content="@yield('title', 'NKAC CONSULTING WA - Conseil en Entreprise')">
+        <meta name="description" content="@yield('meta_description', '')">
+        <meta name="keywords" content="@yield('meta_keywords', '')">
         <meta name="author" content="Quickdev">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ url()->current() }}">
+        <meta property="og:title" content="@yield('title', 'NKAC CONSULTING WA - Conseil en Entreprise')">
+        <meta property="og:description" content="@yield('meta_description', '')">
+        <meta property="og:image" content="@yield('meta_image', asset('assets/img/master/nkac-social.jpg'))">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="{{ url()->current() }}">
+        <meta property="twitter:title" content="@yield('title', 'NKAC CONSULTING WA - Conseil en Entreprise')">
+        <meta property="twitter:description" content="@yield('meta_description', '')">
+        <meta property="twitter:image" content="@yield('meta_image', asset('assets/img/master/nkac-social.jpg'))">
 
 		<!-- ==============================================
 		FAVICON

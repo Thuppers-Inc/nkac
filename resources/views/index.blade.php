@@ -1,5 +1,13 @@
 @extends('layouts.master')
 
+@section('title', 'NKAC CONSULTING WA - Cabinet de conseil en Afrique de l\'Ouest')
+
+@section('meta_description', 'NKAC Consulting West Africa, cabinet pluridisciplinaire d\'excellence avec 30 ans d\'expérience en conseil financier, stratégique et formation en Afrique de l\'Ouest.')
+
+@section('meta_keywords', 'conseil financier, audit, expertise comptable, formation, Afrique de l\'Ouest, OHADA, ingénierie financière, DAF externalisée')
+
+@section('meta_image', asset('assets/img/images/nkac-wa.jpg'))
+
 @section('content')
 <div class="carousel">
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
@@ -432,7 +440,7 @@
           </div>
           <div class="post-caption">
             <h4><a href="#">Pourquoi un audit financier annuel est essentiel</a></h4>
-            <p>L’audit ne concerne pas uniquement les grandes structures. Il apporte une transparence essentielle à toute organisation, publique ou privée.</p>
+            <p>L'audit ne concerne pas uniquement les grandes structures. Il apporte une transparence essentielle à toute organisation, publique ou privée.</p>
             <h5><a href="#">LIRE PLUS</a></h5>
           </div>
         </div>  
@@ -443,7 +451,7 @@
           <div class="feed-box">
             <figure class="feed-thumb"><a href="#"><img src="{{ asset('assets/img/images/1665.jpg') }}" alt=""></a></figure>
             <div class="post-caption">
-              <h5><a href="#">Comprendre les obligations fiscales en Afrique de l’Ouest</a></h5>
+              <h5><a href="#">Comprendre les obligations fiscales en Afrique de l'Ouest</a></h5>
               <p>28 Mai 2025</p>
             </div>  
           </div>
@@ -459,7 +467,7 @@
           <div class="feed-box">
             <figure class="feed-thumb"><a href="#"><img src="{{ asset('assets/img/images/thumb3.jpg') }}" alt=""></a></figure>
             <div class="post-caption">
-              <h5><a href="#">Comment réussir une mission d’audit interne</a></h5>
+              <h5><a href="#">Comment réussir une mission d'audit interne</a></h5>
               <p>2 Mai 2025</p>
             </div>  
           </div>
