@@ -166,7 +166,7 @@
   display: inline-block;
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--text-light);
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 1rem;
@@ -181,7 +181,7 @@
   transform: translateY(-50%);
   width: 30px;
   height: 2px;
-  background: var(--primary-color);
+  background: var(--text-light);
 }
 
 .main-title {
@@ -196,8 +196,8 @@
 }
 
 .highlight-text {
-  color: var(--primary-color);
-  text-shadow: 0 0 20px rgb(255, 116, 36), 2px 2px 4px rgb(255, 127, 115);
+  color: var(--secondary-color);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.422), 2px 2px 4px rgb(255, 127, 115);
   font-weight: 800;
   position: relative;
 }
