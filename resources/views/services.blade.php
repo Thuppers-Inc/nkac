@@ -21,7 +21,7 @@
             <div class="row">
               <div class="col-md-6 col-lg-4 all-services">
                 <div class="front-thumbnail">
-                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/service-1.jpg')}}" alt=""></a></figure> 
+                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/fiscalite.jpg')}}" alt=""></a></figure> 
                     <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/cost.png')}}" alt=""></figure> </div>
                     <div class="figure-caption">
                         <h4>Ingénierie Financière</h4>
@@ -31,7 +31,7 @@
               </div>
               <div class="col-md-6 col-lg-4 all-services">
                 <div class="front-thumbnail">
-                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/service-3.jpg')}}" alt=""></a></figure> 
+                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/risk.jpg')}}" alt=""></a></figure> 
                     <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/deal.png')}}" alt=""></figure> </div>
                     <div class="figure-caption">
                         <h4>Organisation & Gestion des Risques</h4>
@@ -41,7 +41,7 @@
               </div>
               <div class="col-md-6 col-lg-4 all-services responsive-center">
                 <div class="front-thumbnail">
-                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/service-2.jpg')}}" alt=""></a></figure> 
+                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/tax.jpg')}}" alt=""></a></figure> 
                     <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/document.png')}}" alt=""></figure> </div>
                     <div class="figure-caption">
                         <h4>Tax & Assistance Juridique</h4>
@@ -51,17 +51,17 @@
               </div>
              <div class="col-md-6 col-lg-4 all-services bottom-box responsive-center">
                 <div class="front-thumbnail">
-                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/service-4.jpg')}}" alt=""></a></figure> 
+                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/controle-gestion.jpg')}}" alt=""></a></figure> 
                     <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/loan.png')}}" alt=""></figure> </div>
                     <div class="figure-caption">
                         <h4>Direction Financière</h4>
-                        <p>Externalisation DAF, audit comptable, contrôle de gestion</p>
+                        <p>Externalisation DAF, audit comptable, contrôle de gestion <br>&nbsp;</p>
                     </div>
                 </div>
               </div>
               <div class="col-md-6 col-lg-4 all-services bottom-box">
                 <div class="front-thumbnail">
-                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/service-6.jpg')}}" alt=""></a></figure> 
+                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/formation.jpg')}}" alt=""></a></figure> 
                     <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/saved.png')}}" alt=""></figure> </div>
                     <div class="figure-caption">
                         <h4>Formation</h4>
@@ -71,7 +71,7 @@
               </div>
               <div class="col-md-6 col-lg-4 all-services bottom-box last-box">
                 <div class="front-thumbnail">
-                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/service-6.jpg')}}" alt=""></a></figure> 
+                    <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/conseil-strategique.jpg')}}" alt=""></a></figure> 
                     <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/grow.png')}}" alt=""></figure> </div>
                     <div class="figure-caption">
                         <h4>Conseil Stratégique</h4>

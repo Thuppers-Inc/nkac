@@ -19,7 +19,7 @@
 .border-icon{
     width: 55px;
     height: 55px;
-    border: solid 1px #113375;
+    border: solid 1px #f87902;
     position: relative;
     float: left;
     margin-right: 10px;
@@ -28,8 +28,9 @@
 }
 
 .border-icon:hover{
-    border: solid 1px #3EB44C;
-    background: #3EB44C;
+    border: solid 1px #113375;
+    background: #113375;
+    color: #fff;
 }
 
 figure.icon-center{
@@ -409,69 +410,67 @@ h6.testimonial-title{
 }
 
 @media (max-width:480px) { 
-html {
-    font-size: 18px;
+    html {
+        font-size: 18px;
+    }
+    
+    p {
+        font-size: 14px;
+    } 
+    
+    .carousel-caption {
+        position: absolute;
+        right: 5%;
+        left: 5%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .carousel-caption{
+        top: 45%;
+    }
+    
+    .carousel-caption h5{
+        text-transform: uppercase;
+        margin: 15px 0px 20px 0px;
+    }
+    
+    .bottom-footer{
+        padding: 0px 15px;
+    }
+    
+    .counter-parallax{
+        height: 535px;
+        padding: 5px 0px;
+    }
+    
+    .nav-pills a {
+        padding: 8px 15px;
+        line-height: 3.5;
+        margin: 5px;
+        font-size: 14px;
+    }
+    
+    .date-label{
+        padding: 10px 20px;
+    }
+    
+    hr.left{
+        width: 70px;
+        border-top: 3px solid #113375;
+        margin: 15px 0px 15px 0px;
+    }
+    
+    .benefits{
+        padding: 15px;
+    }
+    
+    .careers-parallax{ 
+        padding: 10px 0px 10px 0px;
+    }
+    
+    .inner-color{
+        padding: 10px 0px;
+    }
 }
-    
-p {
-  font-size: 14px;
-} 
-    
-.carousel-caption {
-  position: absolute;
-  right: 5%;
-  left: 5%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-    
-.carousel-caption{
-    top: 45%;
-}
-    
-.carousel-caption h5{
-    text-transform: uppercase;
-    margin: 15px 0px 20px 0px;
-}
-    
-.bottom-footer{
-    padding: 0px 15px;
-}
-    
-.counter-parallax{
-    height: 535px;
-    padding: 5px 0px;
-}
-    
-.nav-pills a {
-    padding: 8px 15px;
-    line-height: 3.5;
-    margin: 5px;
-    font-size: 14px;
-}
-    
-.date-label{
-    padding: 10px 20px;
-}
-    
-hr.left{
-	width: 70px;
-    border-top: 3px solid #3EB44C;
-    margin: 15px 0px 15px 0px;
-}
-    
-.benefits{
-    padding: 15px;
-}
-    
-.careers-parallax{ 
-    padding: 10px 0px 10px 0px;
-}
-    
-.inner-color{
-   padding: 10px 0px;
-}
-
-
-    
 }

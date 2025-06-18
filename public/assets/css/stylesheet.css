@@ -172,14 +172,14 @@ a:active {
   line-height: 1.5;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   font-family: 'Poppins', sans-serif;
-  border: 2px solid #3EB44C;
+  border: 2px solid #113375;
   border-radius: 5px;
   letter-spacing: 1px;
 }
 
 .btn-custom {
   color: #FFF;
-  background-color: #3EB44C;
+  background-color: #113375;
   transition: 0.3s;
   padding: 0.24rem 1.122rem;
   font-size: 0.60rem; 
@@ -187,8 +187,8 @@ a:active {
 
 .btn-custom:hover {
   color: #FFF;
-  background-color: #113375;
-  border-color: #113375;
+  background-color: #f87902;
+  border-color: #f87902;
 }
 
 .btn-custom:focus, .btn-custom.focus {
@@ -197,15 +197,15 @@ a:active {
 
 .btn-custom.disabled, .btn-custom:disabled {
   color: #fff;
-  background-color: #3EB44C;
-  border-color: #3EB44C;
+  background-color: #113375;
+  border-color: #113375;
 }
 
 .btn-custom:not(:disabled):not(.disabled):active, .btn-custom:not(:disabled):not(.disabled).active,
 .show > .btn-custom.dropdown-toggle {
   color: #fff;
-  background-color: #113375;
-  border-color: #113375;
+  background-color: #f87902;
+  border-color: #f87902;
 }
 
 .btn-custom:not(:disabled):not(.disabled):active:focus, .btn-custom:not(:disabled):not(.disabled).active:focus,
@@ -215,7 +215,7 @@ a:active {
 
 .btn-slider {
   color: #FFF;
-  background-color: #3EB44C;
+  background-color: #113375;
   transition: 0.3s;
   padding: 0.3rem 1.125rem;
   font-size: 0.60rem;   
@@ -223,8 +223,8 @@ a:active {
 
 .btn-slider:hover {
   color: #FFF;
-  background-color: #113375;
-  border-color: #113375;  
+  background-color: #f87902;
+  border-color: #f87902;  
 }
 
 .btn-slider:focus, .btn-slider.focus {
@@ -233,15 +233,15 @@ a:active {
 
 .btn-slider.disabled, .btn-slider:disabled {
   color: #fff;
-  background-color: #3EB44C;
-  border-color: #3EB44C;
+  background-color: #113375;
+  border-color: #113375;
 }
 
 .btn-slider:not(:disabled):not(.disabled):active, .btn-slider:not(:disabled):not(.disabled).active,
 .show > .btn-slider.dropdown-toggle {
   color: #fff;
-  background-color: #113375;
-  border-color: #113375;
+  background-color: #f87902;
+  border-color: #f87902;
 }
 
 .btn-slider:not(:disabled):not(.disabled):active:focus, .btn-slider:not(:disabled):not(.disabled).active:focus,
@@ -251,8 +251,8 @@ a:active {
 
 .btn-nav {
   color: #fff;
-  background-color: #113375;
-  border-color: #113375;
+  background-color: #f87902;
+  border-color: #f87902;
   font-size: 0.55rem;
   padding: 0.15rem 0.65rem;
   border-radius: 5px;
@@ -260,8 +260,8 @@ a:active {
 
 .btn-nav:hover {
   color: #FFF;
-  background-color: #113375;
-  border-color: #113375;
+  background-color: #f87902;
+  border-color: #f87902;
 }
 
 .btn-nav:focus, .btn-nav.focus {
@@ -270,15 +270,15 @@ a:active {
 
 .btn-nav.disabled, .btn-nav:disabled {
   color: #fff;
-  background-color: #113375;
-  border-color: #113375;
+  background-color: #f87902;
+  border-color: #f87902;
 }
 
 .btn-nav:not(:disabled):not(.disabled):active, .btn-nav:not(:disabled):not(.disabled).active,
 .show > .btn-nav.dropdown-toggle {
   color: #fff;
-  background-color: #113375;
-  border-color: #113375;
+  background-color: #f87902;
+  border-color: #f87902;
 }
 
 .btn-nav:not(:disabled):not(.disabled):active:focus, .btn-nav:not(:disabled):not(.disabled).active:focus,
@@ -291,7 +291,7 @@ a:active {
    ==================================*/
 .top-header{
     height: 40px;
-    background: #113375;   
+    background: #f87902;   
 }
 
 .top-header .container{
@@ -326,7 +326,7 @@ a:active {
 
 .inner-header-left a:hover {
     text-decoration: none;
-    color: #3EB44C;
+    color: #113375;
 }
 
 .inner-header-left a:active {
@@ -350,7 +350,7 @@ a:active {
 }
 
 .inner-header-social .fa:hover{
-    color: #3EB44C;
+    color: #113375;
 }
 
 header{
@@ -556,7 +556,7 @@ figure.brand img{
 }
 
 .carousel-indicators .active {
-  background-color: #3EB44C;
+  background-color: #113375;
 }
 
 .carousel-control-prev,
@@ -586,13 +586,13 @@ figure.brand img{
    	7. HOMEPAGE #1.
    ==================================*/
 .front-section h6{
-    color: #3EB44C;
+    color: #113375;
     text-transform: uppercase;
 }
 
 hr.left{
 	width: 70px;
-    border-top: 3px solid #3EB44C;
+    border-top: 3px solid #113375;
     margin: 15px 0px 15px 0px;
 }
 
@@ -615,7 +615,7 @@ hr.left{
 .border-icon{
     width: 70px;
     height: 70px;
-    border: solid 2px #113375;
+    border: solid 2px #f87902;
     position: relative;
     float: left;
     margin-right: 20px;
@@ -624,8 +624,8 @@ hr.left{
 }
 
 .border-icon:hover{
-    border: solid 1px #3EB44C;
-    background: #3EB44C;
+    border: solid 1px #113375;
+    background: #113375;
 }
 
 figure.icon-center{
@@ -734,8 +734,8 @@ image-hover {
 }
 
 .front-thumbnail:hover .rounded-circle{
-    background: #3EB44C;
-    border: solid 1px #3EB44C;
+    background: #113375;
+    border: solid 1px #113375;
 }
 
 .center-circle-icon{
@@ -771,7 +771,7 @@ image-hover {
 .date-label{
     width: auto;
     height: auto;
-    background: #3EB44C;
+    background: #113375;
     position: absolute;
     color: #FFF;
     padding: 10px 20px;
@@ -792,7 +792,7 @@ image-hover {
 }
 
 .front-blogs .post-caption h5{
-    color: #3EB44C;
+    color: #113375;
 }
 
 .front-blogs .post-caption a:link {
@@ -930,7 +930,7 @@ hr.feed{
 
 hr.center{
     width: 80px;
-    border-top: 3px solid #3EB44C;
+    border-top: 3px solid #113375;
     margin: 15px auto;
 }
 
@@ -946,7 +946,7 @@ hr.center{
 .about-services .border-icon{
     width: 60px;
     height: 60px;
-    border: solid 2px #113375;
+    border: solid 2px #f87902;
     position: relative;
     float: left;
     margin-right: 10px;
@@ -955,8 +955,8 @@ hr.center{
 }
 
 .about-services .border-icon:hover{
-    border: solid 1px #3EB44C;
-    background: #3EB44C;
+    border: solid 1px #113375;
+    background: #113375;
 }
 
 .about-services figure.icon-center{
@@ -1010,13 +1010,13 @@ aside.services .list-group-item {
   margin-bottom: 10px;
   background-color: #f2f2f2;
   border: none;
-  border-left: solid 3px #113375;
+  border-left: solid 3px #f87902;
   border-radius: 0px;
   transition: 0.3s;
 }
 
 aside.services .list-group-item:hover {
-  background-color: #113375;
+  background-color: #f87902;
 }
 
 aside.services .list-group-item:hover a:link{
@@ -1025,12 +1025,12 @@ aside.services .list-group-item:hover a:link{
 
 aside.services .list-group-item a:link {
     text-decoration: none;
-    color: #113375;
+    color: #f87902;
 }
 
 aside.services .list-group-item a:visited {
     text-decoration: none;
-    color: #113375;
+    color: #f87902;
 }
 
 aside.services .list-group-item a:hover {
@@ -1040,7 +1040,7 @@ aside.services .list-group-item a:hover {
 
 aside.services .list-group-item a:active {
     text-decoration: none;
-    color: #113375;
+    color: #f87902;
 }
 
 aside.services .list-group-item:hover a{
@@ -1072,12 +1072,12 @@ aside.services .list-group-item:hover .fa{
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     background: #f2f2f2;
-    color: #113375;
+    color: #f87902;
 }
 
 .tabs .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
     border-color: none;
-    background: #113375;
+    background: #f87902;
     color: #FFF;
 }
 
@@ -1090,7 +1090,7 @@ aside.services .list-group-item:hover .fa{
 .tabs .nav-tabs .nav-link.active,
 .tabs .nav-tabs .nav-item.show .nav-link {
     color: #FFF;
-    background-color: #113375;
+    background-color: #f87902;
     border-color: #dee2e6 #dee2e6 #fff;
 }
 
@@ -1135,7 +1135,7 @@ aside.services .list-group-item:hover .fa{
 .date-label{
     width: auto;
     height: auto;
-    background: #3EB44C;
+    background: #113375;
     position: absolute;
     color: #FFF;
     padding: 10px 20px;
@@ -1148,7 +1148,7 @@ aside.services .list-group-item:hover .fa{
 
 .fig-caption h3{
     margin: 20px 0px 10px 0px;
-    color: #113375;
+    color: #f87902;
 }
 
 .post-preview-details{
@@ -1290,8 +1290,8 @@ aside.services .list-group-item:hover .fa{
   margin: 0px 5px 0px 5px;
   line-height: 1.25;
   color: #FFF;
-  background-color: #113375;
-  border: 1px solid #113375;
+  background-color: #f87902;
+  border: 1px solid #f87902;
   border-radius: 5%;
   font-family: 'Poppins', sans-serif;
   font-size: 0.70rem;
@@ -1301,8 +1301,8 @@ aside.services .list-group-item:hover .fa{
   z-index: 2;
   color: #FFF;
   text-decoration: none;
-  background-color: #113375;
-  border-color: #113375;
+  background-color: #f87902;
+  border-color: #f87902;
 }
 
 
@@ -1339,7 +1339,7 @@ aside.services .list-group-item:hover .fa{
 }
 
 .panel-title {
-    color: #113375;
+    color: #f87902;
     font-size: 16px;
     transition: 0.3s;
 }
@@ -1370,22 +1370,22 @@ aside.services .list-group-item:hover .fa{
 
 .panel-title a:link {
     text-decoration: none;
-    color: #113375;
+    color: #f87902;
 }
 
 .panel-title a:visited {
     text-decoration: none;
-    color: #113375;
+    color: #f87902;
 }
 
 .panel-title a:hover {
     text-decoration: none;
-    color: #113375;
+    color: #f87902;
 }
 
 .panel-title a:active {
     text-decoration: none;
-    color: #113375;
+    color: #f87902;
 }
 
 /* ========= CAREERS. ========== */
@@ -1411,7 +1411,7 @@ aside.services .list-group-item:hover .fa{
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right, #113375, #113375);
+  background-image: linear-gradient(to bottom right, #f87902, #f87902);
   opacity: 0.8;
 }
 
@@ -1430,7 +1430,7 @@ aside.services .list-group-item:hover .fa{
 
 .benefits h3{
     text-align: center;
-    color: #3EB44C;
+    color: #113375;
     margin: 15px 0px 10px 0px;
 }
 
@@ -1461,22 +1461,22 @@ aside.services .list-group-item:hover .fa{
 
 .position-box a:link {
     text-decoration: none;
-    color: #113375
+    color: #f87902
 }
 
 .position-box a:visited {
     text-decoration: none;
-    color: #113375
+    color: #f87902
 }
 
 .position-box a:hover {
     text-decoration: none;
-    color: #113375;
+    color: #f87902;
 }
 
 .position-box a:active {
     text-decoration: none;
-    color: #113375
+    color: #f87902
 }
 
 /* ========= ERROR PAGE. ========== */
@@ -1516,7 +1516,7 @@ aside.services .list-group-item:hover .fa{
 }
 
 .error-page .middle h4{
-    color: #3EB44C;
+    color: #113375;
 }
 
 .error-page .middle p {
@@ -1536,7 +1536,7 @@ aside.services .list-group-item:hover .fa{
 
 .table-header{
     height: 160px;
-    background: #3EB44C;
+    background: #113375;
     padding: 40px 0px;
 }
 
@@ -1558,7 +1558,7 @@ aside.services .list-group-item:hover .fa{
 }
 
 .center-table .table-header{
-    background: #113375;
+    background: #f87902;
 }
 
 .table-list{
@@ -1589,7 +1589,7 @@ aside.services .list-group-item:hover .fa{
 .pages-title{
     position: absolute;
     bottom: 20px;
-    color: #113375;
+    color: #f87902;
 }
 
 .pages-title h1{
@@ -1630,7 +1630,7 @@ aside.services .list-group-item:hover .fa{
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right, #113375, #113375);
+  background-image: linear-gradient(to bottom right, #f87902, #f87902);
   opacity: 0.7;
 }
 
@@ -1728,8 +1728,8 @@ select.form-control:focus::-ms-value {
 
 .alert-success {
   color: #FFF;
-  background-color: #3EB44C;
-  border-color: #3EB44C;
+  background-color: #113375;
+  border-color: #113375;
   font-family: Aileron-Regular;
   font-size: 15px;
   line-height: 1.5;
@@ -1815,7 +1815,7 @@ p.email:before{
 
 .social-contact a:hover {
     text-decoration: none;
-    color: #3EB44C;
+    color: #113375;
 }
 
 .social-contact a:active {
@@ -1863,7 +1863,7 @@ p.email:before{
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s;
   border-radius: 5px;  
-  background-color: #3EB44C;    
+  background-color: #113375;    
 }
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
   -webkit-transition: opacity .3s 0s, visibility 0s 0s;
@@ -2448,7 +2448,7 @@ img.mfp-img {
 }
 
 .nav-pills a {
-    border: solid 2px #3EB44C;
+    border: solid 2px #113375;
     padding: 8px 20px;
     border-radius: 30px;
 }
@@ -2459,13 +2459,13 @@ img.mfp-img {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;  
     transition: 0.3s;
-    border: solid 2px #3EB44C;
+    border: solid 2px #113375;
     padding: 8px 20px;
     border-radius: 5px;
 }
 
 .nav >li > a:focus, .nav> li > a:hover {
-    background: #3EB44C;
+    background: #113375;
     color: #FFF;
 }
 
@@ -2513,7 +2513,7 @@ figure {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right, #113375, #113375);
+  background-image: linear-gradient(to bottom right, #f87902, #f87902);
   opacity: 0.7;
 }
 
@@ -2530,7 +2530,7 @@ figure {
 }
 
 .testimonials-box{
-    background: #113375;
+    background: #f87902;
     margin-top: -200px;
     z-index: 2;
     position: relative;
@@ -2578,7 +2578,7 @@ p.quote{
 h3.autor{
     text-align: center;
     line-height: 2;
-    color: #3EB44C;
+    color: #113375;
     margin: 5px 0px;
 }
 
@@ -2588,7 +2588,7 @@ h6.testimonial-title{
 }
 
 .flickity-page-dots .dot.is-selected {
-  background: #3EB44C;
+  background: #113375;
 }
 
 .testimonials{
@@ -2799,7 +2799,7 @@ figure.footer-logo img{
 
 .footer-col .list-group-item a:hover {
     text-decoration: none;
-    color: #3EB44C;
+    color: #113375;
 }
 
 .footer-col .list-group-item a:active {
@@ -2857,7 +2857,7 @@ figure.footer-logo img{
 .newsletter-box .button {
   	width: 30%;
   	height: 38px;
-  	background-color: #3EB44C;
+  	background-color: #113375;
   	border: none;
   	border-radius: 0 5px 5px 0;
   	font-family: inherit;
@@ -2900,7 +2900,7 @@ hr.footer{
 }
 
 .social-items .fa{
-    color: #113375;
+    color: #f87902;
 	font-size: 18px;
 	transition: 0.3s;
 }
@@ -2921,13 +2921,13 @@ hr.footer{
     vertical-align: bottom;
     border-radius: 50%;
     float: left;
-	border: solid 1px #113375;
+	border: solid 1px #f87902;
 	transition: 0.3s;
 }
 
 .icon-fa:hover{
-    background: #3EB44C;
-	border: solid 1px #3EB44C;
+    background: #113375;
+	border: solid 1px #113375;
 }
 
 /* ==========================================================================
@@ -2971,192 +2971,192 @@ hr.footer{
 } 
 @keyframes animate2 {
   0% {
-    box-shadow: inset #113375 0 0 0 17px;
+    box-shadow: inset #f87902 0 0 0 17px;
     transform: rotate(-140deg);
   }
   50% {
-    box-shadow: inset #3EB44C 0 0 0 2px;
+    box-shadow: inset #113375 0 0 0 2px;
   }
   100% {
-    box-shadow: inset #3EB44C 0 0 0 17px;
+    box-shadow: inset #113375 0 0 0 17px;
     transform: rotate(140deg);
   }
 }
 
 .btn-green{
 	color: #fff;
-	background-color: #3EB44C;
+	background-color: #113375;
 	border-color: transparent;
 }
 
 .btn-green:hover {
 	color: #fff;
-	background-color: #3EB44C;
-	border-color: #3EB44C;
+	background-color: #113375;
+	border-color: #113375;
 }
 
 .btn-green:focus, .btn-green.focus {
-	box-shadow: 0 0 0 0.2rem rgba(62, 180, 76, 0.5);
+	box-shadow: 0 0 0 0.2rem rgba(17, 51, 117, 0.5);
 }
 
 .btn-green:not(:disabled):not(.disabled):active, .btn-green:not(:disabled):not(.disabled).active,
 .show > .btn-green.dropdown-toggle {
 	color: #fff;
-	background-color: #3EB44C;
+	background-color: #113375;
 }
 
 .btn-green.disabled, .btn-green:disabled {
 	color: #fff;
-	background-color: #3EB44C;
-	border-color: #3EB44C;
+	background-color: #113375;
+	border-color: #113375;
 }
 
 .btn-green:not(:disabled):not(.disabled):active:focus, .btn-green:not(:disabled):not(.disabled).active:focus,
 .show > .btn-green.dropdown-toggle:focus {
-	box-shadow: 0 0 0 0.2rem rgba(62, 180, 76, 0.5);
+	box-shadow: 0 0 0 0.2rem rgba(17, 51, 117, 0.5);
 }
 
 /* ----- Process -----*/
 
 .process-icon{
-	color: #3EB44C;
+	color: #113375;
 }
 
 h4.blue{
-	color: #3EB44C;
+	color: #113375;
 }
 
 .process{
-	background-color: #3EB44C;
+	background-color: #113375;
 }
 
 .process-post{
-	color: #3EB44C;
+	color: #113375;
 }
 
 .process-border{
-	border-top: 3px solid #3EB44C;
+	border-top: 3px solid #113375;
 }
 
 .process-btn{
-	border: solid 1px #3EB44C;
-	background: #3EB44C;
+	border: solid 1px #113375;
+	background: #113375;
 }
 
 .process-2{
-	background: #3EB44C;
-	border: solid 1px #3EB44C;
+	background: #113375;
+	border: solid 1px #113375;
 }
 
 .process-3{
-	background: #3EB44C;
+	background: #113375;
 }
 
 .process-col h5{
-	color: #3EB44C;
+	color: #113375;
 }
 
 .counter-border{
-	border-top: 3px solid #3EB44C;
+	border-top: 3px solid #113375;
 }
 
 .counter-btn{
-	border: solid 1px #3EB44C;
-	background: #3EB44C;
+	border: solid 1px #113375;
+	background: #113375;
 }
 // ... existing code ...
 
 /* ---- Testimonials -----*/
 
 .testimonials h5{
-	color: #3EB44C;
+	color: #113375;
 }
 
 .testimonials h6{
-	color: #3EB44C;
+	color: #113375;
 }
 
 .testimonials-2{
-	background: #3EB44C;
+	background: #113375;
 }
 // ... existing code ...
 
 /* -- Footer --*/
 
 .footer h5{
-	color: #3EB44C;
+	color: #113375;
 }
 
 .footer h6{
-	color: #3EB44C;
+	color: #113375;
 }
 
 .footer-border{
-	background-color: #3EB44C;
+	background-color: #113375;
 }
 // ... existing code ...
 
 /* --- Services ---*/
 
 .services{
-	background: #3EB44C;
+	background: #113375;
 }
 
 .service-icon{
-	color: #3EB44C;
+	color: #113375;
 }
 
 .service-border{
-	color: #3EB44C;
+	color: #113375;
 }
 
 .service-post{
-	color: #3EB44C;
+	color: #113375;
 }
 
 .service-background{
-	background-color: #3EB44C;
+	background-color: #113375;
 }
 // ... existing code ...
 
 /* ---- Contact ----*/
 
 .contact-border{
-	border: solid 2px #3EB44C;
+	border: solid 2px #113375;
 }
 
 .contact-background{
-	border: solid 2px #3EB44C;
+	border: solid 2px #113375;
 }
 
 .contact-btn{
-	background: #3EB44C;
+	background: #113375;
 }
 // ... existing code ...
 
 /* ---- About ----*/
 
 .about-icon{
-	color: #3EB44C;
+	color: #113375;
 }
 
 .about-background{
-	background: #3EB44C;
+	background: #113375;
 }
 
 .about-post{
-	color: #3EB44C;
+	color: #113375;
 }
 
 .about-btn{
-	background: #3EB44C;
-	border: solid 1px #3EB44C;
+	background: #113375;
+	border: solid 1px #113375;
 }
 
 .about-btn:focus, .about-btn.focus {
-	box-shadow: inset #3EB44C 0 0 0 2px;
+	box-shadow: inset #113375 0 0 0 2px;
 }
 .about-btn:hover {
-	box-shadow: inset #3EB44C 0 0 0 17px;
+	box-shadow: inset #113375 0 0 0 17px;
 }
 // ... existing code ...

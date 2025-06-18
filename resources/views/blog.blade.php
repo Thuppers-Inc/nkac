@@ -16,7 +16,7 @@
               <div class="col-lg-9">
                   <div class="posts-list">
                     <div class="post-preview-image">
-                      <figure><img src="{{asset('assets/img/images/img13.jpg')}}" alt=""></figure>
+                      <figure><img src="{{asset('assets/img/images/guide-pratique-optimisation.jpg')}}" alt=""></figure>
                       <div class="date-label">
                         <h6>20 NOV. 2024</h6>
                       </div>
@@ -32,7 +32,7 @@
                   </div>
                   <div class="posts-list">
                     <div class="post-preview-image">
-                      <figure><img src="{{asset('assets/img/images/img10.jpg')}}" alt=""></figure>
+                      <figure><img src="{{asset('assets/img/images/risk.jpg')}}" alt=""></figure>
                       <div class="date-label">
                         <h6>15 NOV. 2024</h6>
                       </div>
@@ -48,7 +48,7 @@
                   </div>
                   <div class="posts-list">
                     <div class="post-preview-image">
-                      <figure><img src="{{asset('assets/img/images/img11.jpg')}}" alt=""></figure>
+                      <figure><img src="{{asset('assets/img/images/organisation-et-gestion-risque.jpg')}}" alt=""></figure>
                       <div class="date-label">
                         <h6>12 NOV. 2024</h6>
                       </div>
@@ -80,7 +80,7 @@
                   </div>
                   <div class="posts-list">
                     <div class="post-preview-image">
-                      <figure><img src="{{asset('assets/img/images/img13.jpg')}}" alt=""></figure>
+                      <figure><img src="{{asset('assets/img/images/controle-gestion.jpg')}}" alt=""></figure>
                       <div class="date-label">
                         <h6>05 NOV. 2024</h6>
                       </div>
