@@ -24,19 +24,19 @@ class ServiceController extends Controller
                         'id' => 'evaluation',
                         'title' => 'Évaluation d\'entreprises',
                         'content' => 'Nous réalisons des évaluations complètes d\'entreprises selon les standards internationaux, adaptées au contexte africain et aux normes OHADA.',
-                        'image' => 'assets/img/images/evaluation.jpg'
+                        'image' => 'assets/img/images/audit-financier.jpg'
                     ],
                     [
                         'id' => 'levee-fonds',
                         'title' => 'Levée de fonds',
                         'content' => 'Accompagnement dans la structuration et la réalisation de levées de fonds, business plans et présentation aux investisseurs.',
-                        'image' => 'assets/img/images/levee-fonds.jpg'
+                        'image' => 'assets/img/images/expertise-comptable.jpg'
                     ],
                     [
                         'id' => 'business-plan',
                         'title' => 'Business Plans',
                         'content' => 'Élaboration de business plans robustes et de modèles financiers prévisionnels pour vos projets de développement.',
-                        'image' => 'assets/img/images/business-plan.jpg'
+                        'image' => 'assets/img/images/controle-interne.jpg'
                     ]
                 ]
             ],
@@ -49,19 +49,19 @@ class ServiceController extends Controller
                         'id' => 'audit',
                         'title' => 'Audit Fiscal',
                         'content' => 'Nous réalisons des audits fiscaux complets pour identifier les risques et opportunités d\'optimisation.',
-                        'image' => 'assets/img/images/audit-fiscal.jpg'
+                        'image' => 'assets/img/images/audit-financier.jpg'
                     ],
                     [
                         'id' => 'conseil',
                         'title' => 'Conseil & Optimisation',
                         'content' => 'Notre conseil fiscal personnalisé vous aide à structurer vos opérations pour minimiser l\'impact fiscal.',
-                        'image' => 'assets/img/images/conseil-fiscal.jpg'
+                        'image' => 'assets/img/images/expertise-comptable.jpg'
                     ],
                     [
                         'id' => 'formation',
                         'title' => 'Formation Fiscale',
                         'content' => 'Nos formations fiscales permettent à vos équipes de maîtriser les enjeux fiscaux.',
-                        'image' => 'assets/img/images/formation-fiscale.jpg'
+                        'image' => 'assets/img/images/controle-interne.jpg'
                     ]
                 ]
             ],
@@ -99,19 +99,19 @@ class ServiceController extends Controller
                         'id' => 'direction-financiere',
                         'title' => 'Direction Financière',
                         'content' => 'Prise en charge complète de la fonction financière : pilotage, reporting, analyse financière.',
-                        'image' => 'assets/img/images/direction-financiere.jpg'
+                        'image' => 'assets/img/images/audit-financier.jpg'
                     ],
                     [
                         'id' => 'controle-gestion',
                         'title' => 'Contrôle de Gestion',
                         'content' => 'Mise en place d\'outils de pilotage, tableaux de bord et analyse des performances.',
-                        'image' => 'assets/img/images/controle-gestion.jpg'
+                        'image' => 'assets/img/images/expertise-comptable.jpg'
                     ],
                     [
                         'id' => 'tresorerie',
                         'title' => 'Gestion de Trésorerie',
                         'content' => 'Optimisation de la trésorerie, prévisions de cash-flow et relations bancaires.',
-                        'image' => 'assets/img/images/tresorerie.jpg'
+                        'image' => 'assets/img/images/controle-interne.jpg'
                     ]
                 ]
             ],
@@ -124,19 +124,19 @@ class ServiceController extends Controller
                         'id' => 'comptabilite-ohada',
                         'title' => 'Comptabilité OHADA',
                         'content' => 'Formation complète sur le système comptable OHADA et les normes comptables en vigueur.',
-                        'image' => 'assets/img/images/formation-comptabilite.jpg'
+                        'image' => 'assets/img/images/audit-financier.jpg'
                     ],
                     [
                         'id' => 'controle-gestion-formation',
                         'title' => 'Contrôle de Gestion',
                         'content' => 'Maîtrise des outils et techniques de contrôle de gestion pour optimiser les performances.',
-                        'image' => 'assets/img/images/formation-controle.jpg'
+                        'image' => 'assets/img/images/expertise-comptable.jpg'
                     ],
                     [
                         'id' => 'systemes-information',
                         'title' => 'Systèmes d\'Information',
                         'content' => 'Formation sur les SI financiers et les outils de gestion modernes.',
-                        'image' => 'assets/img/images/formation-si.jpg'
+                        'image' => 'assets/img/images/controle-interne.jpg'
                     ]
                 ]
             ],
@@ -149,19 +149,19 @@ class ServiceController extends Controller
                         'id' => 'cartographie-risques',
                         'title' => 'Cartographie des Risques',
                         'content' => 'Identification et évaluation complète des risques de votre organisation pour une meilleure maîtrise des enjeux critiques.',
-                        'image' => 'assets/img/images/cartographie-risques.jpg'
+                        'image' => 'assets/img/images/audit-financier.jpg'
                     ],
                     [
                         'id' => 'excellence-operationnelle',
                         'title' => 'Excellence Opérationnelle',
                         'content' => 'Optimisation des processus métier et amélioration continue pour maximiser l\'efficacité opérationnelle.',
-                        'image' => 'assets/img/images/excellence-operationnelle.jpg'
+                        'image' => 'assets/img/images/expertise-comptable.jpg'
                     ],
                     [
                         'id' => 'conduite-changement',
                         'title' => 'Conduite du Changement',
                         'content' => 'Accompagnement dans la transformation organisationnelle et la gestion du changement.',
-                        'image' => 'assets/img/images/conduite-changement.jpg'
+                        'image' => 'assets/img/images/controle-interne.jpg'
                     ]
                 ]
             ],
@@ -174,19 +174,19 @@ class ServiceController extends Controller
                         'id' => 'planification-strategique',
                         'title' => 'Planification Stratégique',
                         'content' => 'Élaboration de plans stratégiques cohérents et réalisables alignés sur vos objectifs business.',
-                        'image' => 'assets/img/images/planification-strategique.jpg'
+                        'image' => 'assets/img/images/audit-financier.jpg'
                     ],
                     [
                         'id' => 'analyse-performance',
                         'title' => 'Analyse de Performance',
                         'content' => 'Évaluation des performances et identification des leviers d\'amélioration pour votre organisation.',
-                        'image' => 'assets/img/images/analyse-performance.jpg'
+                        'image' => 'assets/img/images/expertise-comptable.jpg'
                     ],
                     [
                         'id' => 'accompagnement-proximite',
                         'title' => 'Accompagnement de Proximité',
                         'content' => 'Suivi personnalisé et accompagnement opérationnel dans la mise en œuvre de votre stratégie.',
-                        'image' => 'assets/img/images/accompagnement-proximite.jpg'
+                        'image' => 'assets/img/images/controle-interne.jpg'
                     ]
                 ]
             ]
