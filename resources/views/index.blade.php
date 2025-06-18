@@ -330,7 +330,7 @@
         <div class="row hover-effects image-hover">
           <div class="col-md-12">
             <div class="image-box">
-              <figure><img src="{{asset('assets/img/images/pic1.jpg')}}" alt="NKAC Consulting" /></figure>
+              <figure><img src="{{asset('assets/img/images/nkac-wa.jpg')}}" alt="NKAC Consulting" /></figure>
             </div>
           </div>
           <div class="col-md-12 center-div">
@@ -353,7 +353,7 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="front-thumbnail">
-            <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/img1.jpg')}}" alt="Ingénierie financière"></a></figure> 
+            <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/finances.jpg')}}" alt="Ingénierie financière"></a></figure> 
             <div class="rounded-circle">
               <figure class="center-circle-icon"><img src="{{asset('assets/img/master/cost.png')}}" alt=""></figure>
             </div>
@@ -365,7 +365,7 @@
         </div>
         <div class="col-lg-4 center-div">
           <div class="front-thumbnail">
-            <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/img3.jpg')}}" alt="Stratégie"></a></figure> 
+            <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/strategie.jpg')}}" alt="Stratégie"></a></figure> 
             <div class="rounded-circle">
               <figure class="center-circle-icon"><img src="{{asset('assets/img/master/deal.png')}}" alt=""></figure>
             </div>
@@ -377,7 +377,7 @@
         </div>
         <div class="col-lg-4">
           <div class="front-thumbnail">
-            <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/img2.jpg')}}" alt="Formation"></a></figure> 
+            <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/formation.jpg')}}" alt="Formation"></a></figure> 
             <div class="rounded-circle">
               <figure class="center-circle-icon"><img src="{{asset('assets/img/master/document.png')}}" alt=""></figure>
             </div>
@@ -406,7 +406,7 @@
         <div class="front-blogs">
           <div class="thumb-pic">
             <figure class="post-prev-thumb">
-              <a href="#"><img src="{{ asset('assets/img/images/img4.jpg') }}" alt=""></a>
+              <a href="#"><img src="{{ asset('assets/img/images/fiscalite.jpg') }}" alt=""></a>
             </figure>
             <div class="date-label">
               <h6>12 JUIN 2025</h6>
@@ -441,7 +441,7 @@
       <div class="col-lg-4">
         <div class="news-feed">
           <div class="feed-box">
-            <figure class="feed-thumb"><a href="#"><img src="{{ asset('assets/img/images/thumb1.jpg') }}" alt=""></a></figure>
+            <figure class="feed-thumb"><a href="#"><img src="{{ asset('assets/img/images/1665.jpg') }}" alt=""></a></figure>
             <div class="post-caption">
               <h5><a href="#">Comprendre les obligations fiscales en Afrique de l’Ouest</a></h5>
               <p>28 Mai 2025</p>
