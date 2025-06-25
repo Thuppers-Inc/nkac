@@ -3665,3 +3665,53 @@ video::-webkit-media-controls-timeline {
 }
 
 /* ---- Video Play Button ----*/
+
+.front-thumbnail .figure-caption p{
+    margin-bottom: 0px;
+}
+
+/* Égalisation des hauteurs pour les blocs front-thumbnail */
+.front-options .row {
+    display: flex;
+    align-items: stretch;
+}
+
+.front-options .col-lg-4 {
+    display: flex;
+}
+
+.front-thumbnail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.front-thumbnail .figure-caption {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Responsive: retour au comportement normal sur mobile */
+@media (max-width: 991px) {
+    .front-options .row {
+        display: block;
+    }
+    
+    .front-options .col-lg-4 {
+        display: block;
+        margin-bottom: 30px;
+    }
+    
+    .front-thumbnail {
+        display: block;
+        height: auto;
+    }
+    
+    .front-thumbnail .figure-caption {
+        flex-grow: unset;
+        display: block;
+    }
+}
