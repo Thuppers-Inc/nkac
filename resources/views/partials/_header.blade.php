@@ -16,10 +16,10 @@
     <header>
         <div class="container">
             <div class="header-left">
-                <figure class="brand" style="margin-top: -13px;">
+                <figure class="brand" style="margin-top: -17px;">
                     {{-- <img src="{{asset('assets/img/logo.png')}}" alt="Logo NKAC"> --}}
                     <a href="{{ route('home.index') }}">
-                        <img src="{{asset('assets/img/logo.png')}}" alt="Logo NKAC" style="height: 80px;">   
+                        <img src="{{asset('assets/img/logo.png')}}" alt="Logo NKAC" style="height: 90px; width: auto;">   
                     </a>
                 </figure> 
             </div>
