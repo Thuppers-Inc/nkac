@@ -129,7 +129,7 @@
                     <p class="leadership-subtitle">Des experts reconnus au service de votre réussite</p>
                   </div> --}}
                   <div class="row">
-                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
                       <div class="leadership-card">
                         {{-- <div class="featured-badge">Country Manager</div> --}}
                         <div class="card-image-wrapper">
@@ -157,7 +157,7 @@
                       </div>
                     </div>
 
-                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
                       <div class="leadership-card featurede">
                         {{-- <div class="featured-badge">Fondateur</div> --}}
                         <div class="card-image-wrapper">
@@ -181,33 +181,6 @@
                           </div>
                           {{-- <p class="member-description">
                             30 ans d'expérience en audit et conseil, expert reconnu dans l'espace OHADA.
-                          </p> --}}
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
-                      <div class="leadership-card">
-                        <div class="card-image-wrapper">
-                          <figure class="leadership-photo">
-                            <img src="{{asset('assets/img/images/mme-nene.png')}}" alt="NENE">
-                            <div class="image-overlay">
-                              <div class="social-links">
-                                <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
-                                <a href="#" class="social-link"><i class="fa fa-envelope"></i></a>
-                              </div>
-                            </div>
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <h4 class="member-name">NENE</h4>
-                          <p class="member-role">Experte Comptable Corporate</p>
-                          <div class="member-expertise">
-                            <span class="expertise-tag">Comptabilité</span>
-                            <span class="expertise-tag">Fiscalité</span>
-                          </div>
-                          {{-- <p class="member-description">
-                            Spécialisée en comptabilité des grandes entreprises et optimisation fiscale.
                           </p> --}}
                         </div>
                       </div>
@@ -375,6 +348,120 @@
 
 @section('scripts')
     <script src="{{asset('assets/js/team.slider.js')}}"></script>
+    
+    <style>
+        /* Styles pour que les blocs aient la même hauteur */
+        .front-options .row {
+            display: flex;
+            align-items: stretch;
+        }
+        
+        .front-options .col-lg-4 {
+            display: flex;
+        }
+        
+        .front-thumbnail {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .front-thumbnail .figure-caption {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        /* Styles pour égaliser les hauteurs des cartes leadership */
+        .leadership-dsection .row {
+            display: flex;
+            align-items: stretch;
+        }
+        
+        .leadership-dsection .col-md-6 {
+            display: flex;
+        }
+        
+        .leadership-card {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .leadership-card .card-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        /* Ajustements pour les photos de l'équipe dirigeante */
+        .leadership-photo img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            object-position: center top; /* Position l'image depuis le haut pour montrer les têtes */
+            transition: transform 0.4s ease;
+        }
+        
+        /* Pour s'assurer que les têtes restent visibles même avec le zoom au survol */
+        .leadership-card:hover .leadership-photo img {
+            transform: scale(1.05);
+            object-position: center top; /* Maintient la position même lors du zoom */
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 991px) {
+            .front-options .row {
+                display: block;
+            }
+            
+            .front-options .col-lg-4 {
+                display: block;
+                margin-bottom: 30px;
+            }
+            
+            .front-thumbnail {
+                display: block;
+                height: auto;
+            }
+            
+            .front-thumbnail .figure-caption {
+                flex-grow: unset;
+                display: block;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            .leadership-dsection .row {
+                display: block;
+            }
+            
+            .leadership-dsection .col-md-6 {
+                display: block;
+                margin-bottom: 20px;
+            }
+            
+            .leadership-card {
+                display: block;
+                height: auto;
+            }
+            
+            .leadership-card .card-content {
+                flex-grow: unset;
+                display: block;
+            }
+            
+            /* Ajustement mobile pour les photos */
+            .leadership-photo img {
+                height: 250px;
+                object-position: center top;
+            }
+        }
+    </style>
     
     <script>
         $(document).ready(function() {

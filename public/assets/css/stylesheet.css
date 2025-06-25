@@ -883,10 +883,12 @@ hr.feed{
     height: 400px; 
     margin-top: -55px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    /* Ajout de padding-top pour compenser le margin négatif et mieux positionner l'image */
+    padding-top: 55px;
 }
 
 .sections:before {
@@ -908,6 +910,11 @@ hr.feed{
     position: absolute;
     bottom: 20px;
     color: #FFF;
+    /* Ajustement pour le nouveau padding */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
 }
 
 .pages-title h1{
