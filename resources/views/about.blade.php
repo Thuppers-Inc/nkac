@@ -78,7 +78,11 @@
                   <div class="col-lg-4">
                     <div class="front-thumbnail">
                         <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/img1.jpg')}}" alt=""></a></figure> 
-                        <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/cost.png')}}" alt=""></figure> </div>
+                        <div class="rounded-circle">
+                            <figure class="center-circle-icon">
+                                <i class="fa fa-cogs fa-service-icon"></i>
+                            </figure> 
+                        </div>
                         <div class="figure-caption">
                             <h4>Expertise Pluridisciplinaire</h4>
                             <p>Compétences qui couvrent les aspects financiers, stratégiques et opérationnels</p>
@@ -88,7 +92,11 @@
                   <div class="col-lg-4 center-div">
                     <div class="front-thumbnail">
                         <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/img3.jpg')}}" alt=""></a></figure> 
-                        <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/deal.png')}}" alt=""></figure> </div>
+                        <div class="rounded-circle">
+                            <figure class="center-circle-icon">
+                                <i class="fa fa-users fa-service-icon"></i>
+                            </figure> 
+                        </div>
                         <div class="figure-caption">
                             <h4>Équipes Expérimentées</h4>
                             <p>Des équipes intégrées, expérimentées et engagées à votre service</p>
@@ -98,7 +106,11 @@
                   <div class="col-lg-4">
                     <div class="front-thumbnail">
                         <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/img2.jpg')}}" alt=""></a></figure> 
-                        <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/document.png')}}" alt=""></figure> </div>
+                        <div class="rounded-circle">
+                            <figure class="center-circle-icon">
+                                <i class="fa fa-map-marker fa-service-icon"></i>
+                            </figure> 
+                        </div>
                         <div class="figure-caption">
                             <h4>Accompagnement de Proximité</h4>
                             <p>Proximité géographique & business avec une compréhension de votre activité</p>
@@ -193,61 +205,26 @@
         
         <div class="container-fluid counter-parallax">
             <div class="container">
-                <div class="row">                    
-                    <div class="col-sm-3 col-md-3">
-                        <div class="counter-statistics">
-                            <div class="counter">+150</div>
-                            <h5>PROJETS RÉALISÉS</h5>
-                        </div>
+                <div class="row stats-row">
+                    <div class="col-sm-3 col-6 stat-box">
+                        <div class="counter-icon"><i class="fa fa-folder-open"></i></div>
+                        <div class="counter" data-count="150">0</div>
+                        <h5>PROJETS RÉALISÉS</h5>
                     </div>
-                    <div class="col-sm-3 col-md-3">
-                        <div class="counter-statistics">
-                            <div class="counter">200</div>
-                            <h5>CLIENTS SATISFAITS</h5>
-                        </div>
+                    <div class="col-sm-3 col-6 stat-box">
+                        <div class="counter-icon"><i class="fa fa-smile-o"></i></div>
+                        <div class="counter" data-count="200">0</div>
+                        <h5>CLIENTS SATISFAITS</h5>
                     </div>
-                    <div class="col-sm-3 col-md-3">
-                        <div class="counter-statistics">
-                            <div class="counter">30</div>
-                            <h5>ANNÉES D'EXPÉRIENCE</h5>
-                        </div>
+                    <div class="col-sm-3 col-6 stat-box">
+                        <div class="counter-icon"><i class="fa fa-calendar"></i></div>
+                        <div class="counter" data-count="30">0</div>
+                        <h5>ANNÉES D'EXPÉRIENCE</h5>
                     </div>
-                    <div class="col-sm-3 col-md-3">
-                        <div class="counter-statistics">
-                            <div class="counter">15</div>
-                            <h5>ANNÉES AU SÉNÉGAL</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="container">
-            <div class="testimonials-box">
-                <div class="main-gallery">
-                    <div class="gallery-cell">
-                       <div class="testimonial-section">
-                        <div class="avatar"><img src="{{asset('assets/img/images/avatar1.jpg')}}" alt=""></div>
-                        <h3 class="autor">Client PME</h3>
-                        <h6 class="testimonial-title">NKAC Consulting fortement recommandé!</h6>
-                        <p class="quote">"Grâce à NKAC Consulting, nous avons pu structurer efficacement notre levée de fonds et optimiser notre organisation. Leur expertise pluridisciplinaire et leur accompagnement de proximité ont été déterminants pour notre réussite."</p>
-                      </div>
-                    </div>
-                    <div class="gallery-cell">
-                       <div class="testimonial-section">
-                        <div class="avatar"><img src="{{asset('assets/img/images/avatar5.jpg')}}" alt=""></div>
-                        <h3 class="autor">Directeur Financier</h3>
-                        <h6 class="testimonial-title">Un partenaire de confiance!</h6>
-                        <p class="quote">"L'équipe de NKAC Consulting a su nous accompagner dans la mise en place de nos processus comptables et de contrôle interne. Leur professionnalisme et leur pragmatisme nous ont permis d'améliorer significativement notre performance."</p>
-                      </div>
-                    </div>
-                    <div class="gallery-cell">
-                       <div class="testimonial-section">
-                        <div class="avatar"><img src="{{asset('assets/img/images/avatar3.jpg')}}" alt=""></div>
-                        <h3 class="autor">Chef d'Entreprise</h3>
-                        <h6 class="testimonial-title">Expertise reconnue!</h6>
-                        <p class="quote">"NKAC Consulting nous a aidés à optimiser notre situation fiscale et à sécuriser nos opérations. Leur connaissance approfondie de l'environnement réglementaire ouest-africain est un véritable atout."</p>
-                      </div>
+                    <div class="col-sm-3 col-6 stat-box">
+                        <div class="counter-icon"><i class="fa fa-map-marker"></i></div>
+                        <div class="counter" data-count="15">0</div>
+                        <h5>ANNÉES AU SÉNÉGAL</h5>
                     </div>
                 </div>
             </div>
@@ -461,6 +438,30 @@
                 object-position: center top;
             }
         }
+        
+        .stats-row {
+            text-align: center;
+            color: #fff;
+        }
+        .stat-box {
+            margin-bottom: 30px;
+        }
+        .counter-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #fff;
+            opacity: 0.7;
+        }
+        .counter {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+        @media (max-width: 767px) {
+            .stat-box { margin-bottom: 20px; }
+            .counter { font-size: 2rem; }
+        }
     </style>
     
     <script>
@@ -493,6 +494,24 @@
             videoPlayer.addEventListener('loadeddata', function() {
                 console.log('Vidéo chargée et prête à être lue');
             });
+        });
+
+        $('.counter').each(function() {
+          var $this = $(this),
+              countTo = $this.attr('data-count');
+          $({ countNum: $this.text() }).animate({
+            countNum: countTo
+          },
+          {
+            duration: 2000,
+            easing: 'swing',
+            step: function() {
+              $this.text(Math.floor(this.countNum));
+            },
+            complete: function() {
+              $this.text(this.countNum);
+            }
+          });
         });
     </script>
 @endsection

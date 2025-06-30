@@ -30,7 +30,7 @@
 		<!-- ==============================================
 		FAVICON
 		=============================================== -->  
-        <link rel="shortcut icon" href="{{asset('assets/img/master/favicon.html')}}">
+        <link rel="shortcut icon" href="{{asset('assets/img/master/favicon.png')}}">
              
 		<!-- ==============================================
 		CSS

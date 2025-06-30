@@ -363,7 +363,9 @@
           <div class="front-thumbnail">
             <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/finances.jpg')}}" alt="Ingénierie financière"></a></figure> 
             <div class="rounded-circle">
-              <figure class="center-circle-icon"><img src="{{asset('assets/img/master/cost.png')}}" alt=""></figure>
+              <figure class="center-circle-icon">
+                <i class="fa fa-line-chart fa-service-icon"></i>
+              </figure>
             </div>
             <div class="figure-caption">
               <h4>Ingénierie Financière</h4>
@@ -375,7 +377,9 @@
           <div class="front-thumbnail">
             <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/strategie.jpg')}}" alt="Stratégie"></a></figure> 
             <div class="rounded-circle">
-              <figure class="center-circle-icon"><img src="{{asset('assets/img/master/deal.png')}}" alt=""></figure>
+              <figure class="center-circle-icon">
+                <i class="fa fa-bullseye fa-service-icon"></i>
+              </figure>
             </div>
             <div class="figure-caption">
               <h4>Stratégie & Performance</h4>
@@ -387,7 +391,9 @@
           <div class="front-thumbnail">
             <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/formation.jpg')}}" alt="Formation"></a></figure> 
             <div class="rounded-circle">
-              <figure class="center-circle-icon"><img src="{{asset('assets/img/master/document.png')}}" alt=""></figure>
+              <figure class="center-circle-icon">
+                <i class="fa fa-graduation-cap fa-service-icon"></i>
+              </figure>
             </div>
             <div class="figure-caption">
               <h4>Formation Métier</h4>

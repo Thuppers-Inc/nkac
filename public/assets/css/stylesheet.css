@@ -883,12 +883,10 @@ hr.feed{
     height: 400px; 
     margin-top: -55px;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    /* Ajout de padding-top pour compenser le margin négatif et mieux positionner l'image */
-    padding-top: 55px;
 }
 
 .sections:before {
@@ -3714,4 +3712,19 @@ video::-webkit-media-controls-timeline {
         flex-grow: unset;
         display: block;
     }
+}
+
+/* Styles pour les icônes Font Awesome de service */
+.fa-service-icon {
+    font-size: 24px;
+    color: #f87902; /* Orange */
+    transition: color 0.3s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.front-thumbnail:hover .fa-service-icon {
+    color: #ffffff; /* Blanc en hover */
 }

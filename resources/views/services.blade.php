@@ -22,7 +22,11 @@
               <div class="col-md-6 col-lg-4 all-services">
                 <div class="front-thumbnail">
                     <figure class="box-pic"><a href="{{ route('services.show', 'conseil-financier') }}"><img src="{{asset('assets/img/images/fiscalite.jpg')}}" alt=""></a></figure> 
-                    <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/cost.png')}}" alt=""></figure> </div>
+                    <div class="rounded-circle">
+                        <figure class="center-circle-icon">
+                            <i class="fa fa-calculator fa-service-icon"></i>
+                        </figure> 
+                    </div>
                     <div class="figure-caption">
                         <h4>Ingénierie Financière</h4>
                         <p>Évaluation d'entreprises, structuration de levée de fonds, business plan et commissariat aux apports</p>
@@ -32,7 +36,11 @@
               <div class="col-md-6 col-lg-4 all-services">
                 <div class="front-thumbnail">
                     <figure class="box-pic"><a href="{{ route('services.show', 'gestion-risques') }}"><img src="{{asset('assets/img/images/risk.jpg')}}" alt=""></a></figure> 
-                    <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/deal.png')}}" alt=""></figure> </div>
+                    <div class="rounded-circle">
+                        <figure class="center-circle-icon">
+                            <i class="fa fa-shield fa-service-icon"></i>
+                        </figure> 
+                    </div>
                     <div class="figure-caption">
                         <h4>Organisation & Gestion des Risques</h4>
                         <p>Cartographie des risques, excellence opérationnelle, conduite du changement</p>
@@ -42,7 +50,11 @@
               <div class="col-md-6 col-lg-4 all-services responsive-center">
                 <div class="front-thumbnail">
                     <figure class="box-pic"><a href="{{ route('services.show', 'conseil-fiscal') }}"><img src="{{asset('assets/img/images/tax.jpg')}}" alt=""></a></figure> 
-                    <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/document.png')}}" alt=""></figure> </div>
+                    <div class="rounded-circle">
+                        <figure class="center-circle-icon">
+                            <i class="fa fa-balance-scale fa-service-icon"></i>
+                        </figure> 
+                    </div>
                     <div class="figure-caption">
                         <h4>Tax & Assistance Juridique</h4>
                         <p>Assistance fiscale, optimisation fiscale, relations avec l'administration</p>
@@ -52,7 +64,11 @@
              <div class="col-md-6 col-lg-4 all-services bottom-box responsive-center">
                 <div class="front-thumbnail">
                     <figure class="box-pic"><a href="{{ route('services.show', 'externalisation-daf') }}"><img src="{{asset('assets/img/images/controle-gestion.jpg')}}" alt=""></a></figure> 
-                    <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/loan.png')}}" alt=""></figure> </div>
+                    <div class="rounded-circle">
+                        <figure class="center-circle-icon">
+                            <i class="fa fa-briefcase fa-service-icon"></i>
+                        </figure> 
+                    </div>
                     <div class="figure-caption">
                         <h4>Direction Financière</h4>
                         <p>Externalisation DAF, audit comptable, contrôle de gestion <br>&nbsp;</p>
@@ -62,7 +78,11 @@
               <div class="col-md-6 col-lg-4 all-services bottom-box">
                 <div class="front-thumbnail">
                     <figure class="box-pic"><a href="{{ route('services.show', 'formation-metier') }}"><img src="{{asset('assets/img/images/formation.jpg')}}" alt=""></a></figure> 
-                    <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/saved.png')}}" alt=""></figure> </div>
+                    <div class="rounded-circle">
+                        <figure class="center-circle-icon">
+                            <i class="fa fa-graduation-cap fa-service-icon"></i>
+                        </figure> 
+                    </div>
                     <div class="figure-caption">
                         <h4>Formation</h4>
                         <p>Cash management, contrôle de gestion, comptabilité, risk management</p>
@@ -72,7 +92,11 @@
               <div class="col-md-6 col-lg-4 all-services bottom-box last-box">
                 <div class="front-thumbnail">
                     <figure class="box-pic"><a href="{{ route('services.show', 'conseil-strategique') }}"><img src="{{asset('assets/img/images/conseil-strategique.jpg')}}" alt=""></a></figure> 
-                    <div class="rounded-circle"><figure class="center-circle-icon"><img src="{{asset('assets/img/master/grow.png')}}" alt=""></figure> </div>
+                    <div class="rounded-circle">
+                        <figure class="center-circle-icon">
+                            <i class="fa fa-lightbulb-o fa-service-icon"></i>
+                        </figure> 
+                    </div>
                     <div class="figure-caption">
                         <h4>Conseil Stratégique</h4>
                         <p>Planification stratégique, excellence opérationnelle, accompagnement de proximité</p>

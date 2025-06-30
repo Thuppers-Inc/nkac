@@ -170,7 +170,7 @@
                         </form>
                     </div>
 
-                    <div class="inner-sidebar">
+                    {{-- <div class="inner-sidebar">
                         <h5>Nos Services</h5>
                         <hr class="left">
                         <ul class="list-unstyled">
@@ -181,7 +181,7 @@
                             <li><a href="{{route('services')}}">• Formation</a></li>
                         </ul>
                         <a href="{{route('contact')}}" class="btn btn-custom btn-sm">DEMANDER UN DEVIS</a>
-                    </div>
+                    </div> --}}
                 </aside>  
               </div>
             </div>
