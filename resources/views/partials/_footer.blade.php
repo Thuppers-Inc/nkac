@@ -8,7 +8,7 @@
                     <figure class="footer-logo" style="margin-top: -18px;">
                         <a href="index.html"><img src="{{asset('assets/img/logo.png')}}" alt="NKAC Consulting Logo"></a>
                     </figure>
-                    <p>NKAC Consulting West Africa vous accompagne dans vos démarches comptables, fiscales, financières et en audit grâce à une expertise reconnue en Afrique de l’Ouest.</p>
+                    <p>NKAC Consulting West Africa vous accompagne dans vos démarches comptables, fiscales, financières et en audit grâce à une expertise reconnue en Afrique de l'Ouest.</p>
                     <p><a class="btn btn-custom" href="about.html" role="button">En savoir plus</a></p>
                 </div>  
             </div>
@@ -69,10 +69,10 @@
                 <p>© {{ date('Y') }} NKAC Consulting West Africa. Tous droits réservés.</p>
             </div>
             <div class="social-footer">
-                <div class="social-items"><a href="#"><div class="icon-fa"><i class="fa fa-facebook"></i></div></a></div>
-                <div class="social-items"><a href="#"><div class="icon-fa"><i class="fa fa-twitter"></i></div></a></div>
-                <div class="social-items"><a href="#"><div class="icon-fa"><i class="fa fa-instagram"></i></div></a></div>
-                <div class="social-items"><a href="#"><div class="icon-fa"><i class="fa fa-linkedin"></i></div></a></div>
+                <div class="social-items"><a href="#"><div class="icon-fa"><i class="fab fa-facebook-f" aria-hidden="true"></i></div></a></div>
+                <div class="social-items"><a href="#"><div class="icon-fa"><i class="fab fa-twitter" aria-hidden="true"></i></div></a></div>
+                <div class="social-items"><a href="#"><div class="icon-fa"><i class="fab fa-instagram" aria-hidden="true"></i></div></a></div>
+                <div class="social-items"><a href="#"><div class="icon-fa"><i class="fas fa-rss" aria-hidden="true"></i></div></a></div>
             </div>
         </div>
     </div>
