@@ -187,7 +187,7 @@
                     <div class="post-caption">
                         <h3><a href="#">Optimisation fiscale en zone OHADA</a></h3>
                         <p>Les meilleures stratégies d'optimisation fiscale pour les entreprises en Afrique de l'Ouest selon la réglementation en vigueur.</p>
-                        <h5><a href="#">LIRE LA SUITE</a></h5>
+                        <a href="#" class="btn btn-custom btn-sm">LIRE LA SUITE</a>
                     </div>
                 </div>  
               </div>
@@ -202,7 +202,7 @@
                     <div class="post-caption">
                         <h3><a href="#">Gestion des risques pour les PME</a></h3>
                         <p>Comment mettre en place un système efficace de gestion des risques adapté aux petites et moyennes entreprises.</p>
-                        <h5><a href="#">LIRE LA SUITE</a></h5>
+                        <a href="#" class="btn btn-custom btn-sm">LIRE LA SUITE</a>
                     </div>
                 </div>  
               </div>

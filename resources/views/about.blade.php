@@ -44,22 +44,22 @@
             <div class="front-options about-services">
                 <div class="row">
                     <div class="col-md-6 col-lg-3">
-                        <div class="border-icon"><figure class="icon-center"><img src="{{asset('assets/img/master/money.png')}}" alt=""></figure></div>
+                        <div class="border-icon"><figure class="icon-center"><i class="fas fa-money-bill-wave fa-service-icon"></i></figure></div>
                         <h4>Ingénierie Financière</h4>
                         <p>Évaluation d'entreprises, structuration de levée de fonds, business plan</p>
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <div class="border-icon"><figure class="icon-center"><img src="{{asset('assets/img/master/saved.png')}}" alt=""></figure></div>
+                        <div class="border-icon"><figure class="icon-center"><i class="fas fa-shield-alt fa-service-icon"></i></figure></div>
                         <h4>Organisation & Gestion des Risques</h4>
                         <p>Cartographie des risques, excellence opérationnelle, conduite du changement</p>
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <div class="border-icon"><figure class="icon-center"><img src="{{asset('assets/img/master/grow.png')}}" alt=""></figure></div>
+                        <div class="border-icon"><figure class="icon-center"><i class="fas fa-balance-scale fa-service-icon"></i></figure></div>
                         <h4>Tax & Assistance Juridique</h4>
                         <p>Assistance fiscale, optimisation fiscale, relations avec l'administration</p>
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <div class="border-icon"><figure class="icon-center"><img src="{{asset('assets/img/master/loan.png')}}" alt=""></figure></div>
+                        <div class="border-icon"><figure class="icon-center"><i class="fas fa-briefcase fa-service-icon"></i></figure></div>
                         <h4>Direction Financière</h4>
                         <p>Externalisation DAF, audit comptable, contrôle de gestion</p>
                     </div>
@@ -212,7 +212,7 @@
                         <h5>PROJETS RÉALISÉS</h5>
                     </div>
                     <div class="col-sm-3 col-6 stat-box">
-                        <div class="counter-icon"><i class="fa fa-smile-o"></i></div>
+                        <div class="counter-icon"><i class="fa fa-smile"></i></div>
                         <div class="counter" data-count="200">0</div>
                         <h5>CLIENTS SATISFAITS</h5>
                     </div>
@@ -248,7 +248,7 @@
                     <div class="post-caption">
                         <h4><a href="#">Optimisation fiscale en zone OHADA</a></h4>
                         <p>Découvrez les meilleures stratégies d'optimisation fiscale pour les entreprises en Afrique de l'Ouest.</p>
-                        <h5><a href="#">LIRE LA SUITE</a></h5>
+                        <a href="#" class="btn btn-custom btn-sm text-white">LIRE LA SUITE</a>
                     </div>
                 </div>  
               </div>
@@ -263,7 +263,7 @@
                     <div class="post-caption">
                         <h4><a href="#">Gestion des risques financiers</a></h4>
                         <p>Les clés pour une gestion efficace des risques dans votre organisation.</p>
-                        <h5><a href="#">LIRE LA SUITE</a></h5>
+                        <a href="#" class="btn btn-custom btn-sm text-white">LIRE LA SUITE</a>
                     </div>
                 </div>  
               </div>

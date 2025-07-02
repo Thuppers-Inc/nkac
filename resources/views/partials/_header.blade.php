@@ -16,10 +16,12 @@
     <header>
         <div class="container">
             <div class="header-left">
-                <figure class="brand" style="margin-top: -17px;">
+                <figure class="brand" style="margin-top: -20px;">
+                    {{-- <img src="{{asset('assets/img/logo.png')}}" alt="Logo NKAC"> --}}
+                    {{-- <img src="{{asset('assets/img/fans titre-1.png')}}" alt="Logo NKAC" style="height: 100px; width: auto;"> --}}
                     {{-- <img src="{{asset('assets/img/logo.png')}}" alt="Logo NKAC"> --}}
                     <a href="{{ route('home.index') }}">
-                        <img src="{{asset('assets/img/logo.png')}}" alt="Logo NKAC" style="height: 90px; width: auto;">   
+                        <img src="{{asset('assets/img/fans titre-1.png')}}" alt="Logo NKAC" style="height: 100px; width: auto;">   
                     </a>
                 </figure> 
             </div>
@@ -69,7 +71,9 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Nos services <span class="caret-drop"></span></a>
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                                Nos services <span><i class="fas fa-caret-down"></i></span>
+                            </a>
                             <ul class="dropdown-menu">
                                 <li class="divider-top"></li>
                                 <li><a class="dropdown-item" href="{{route('services')}}">Tous les services</a></li>

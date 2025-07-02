@@ -304,28 +304,28 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="border-icon">
-                  <figure class="icon-center"><img src="{{asset('assets/img/master/money.png')}}" alt=""></figure>
+                  <figure class="icon-center"><i class="fas fa-chart-line fa-service-icon"></i></figure>
                 </div>
                 <h4>Ingénierie Financière</h4>
                 <p>Évaluation, levée de fonds, business plans, commissariat aux apports.</p>
               </div>
               <div class="col-md-6">
                 <div class="border-icon">
-                  <figure class="icon-center"><img src="{{asset('assets/img/master/saved.png')}}" alt=""></figure>
+                  <figure class="icon-center"><i class="fa fa-piggy-bank fa-service-icon"></i></figure>
                 </div>
                 <h4>Externalisation DAF</h4>
                 <p>Direction financière externalisée, contrôle de gestion, pilotage.</p>
               </div>
               <div class="col-md-6">
                 <div class="border-icon">
-                  <figure class="icon-center"><img src="{{asset('assets/img/master/grow.png')}}" alt=""></figure>
+                  <figure class="icon-center"><i class="fa fa-balance-scale fa-service-icon"></i></figure>
                 </div>
                 <h4>Fiscalité & Juridique</h4>
                 <p>Optimisation fiscale, conformité, assistance juridique continue.</p>
               </div>
               <div class="col-md-6">
                 <div class="border-icon">
-                  <figure class="icon-center"><img src="{{asset('assets/img/master/loan.png')}}" alt=""></figure>
+                  <figure class="icon-center"><i class="fa fa-chalkboard-teacher fa-service-icon"></i></figure>
                 </div>
                 <h4>Formation Métier</h4>
                 <p>Formations spécialisées comptabilité, trésorerie, contrôle de gestion.</p>
@@ -364,7 +364,7 @@
             <figure class="box-pic"><a href="#"><img src="{{asset('assets/img/images/finances.jpg')}}" alt="Ingénierie financière"></a></figure> 
             <div class="rounded-circle">
               <figure class="center-circle-icon">
-                <i class="fa fa-line-chart fa-service-icon"></i>
+                <i class="fas fa-chart-line fa-service-icon"></i>
               </figure>
             </div>
             <div class="figure-caption">

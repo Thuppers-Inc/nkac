@@ -879,7 +879,7 @@ hr.feed{
    	8. PAGES STYLES.
    ==================================*/
 .sections{
-    background-image: url("../img/images/sections-bg.jpg");
+    background-image: url("../img/images/sections-bg-motif.jpg");
     height: 400px; 
     margin-top: -55px;
     background-attachment: fixed;
@@ -3727,4 +3727,17 @@ video::-webkit-media-controls-timeline {
 
 .front-thumbnail:hover .fa-service-icon {
     color: #ffffff; /* Blanc en hover */
+}
+
+.border-icon .fa-service-icon {
+    font-size: 1.3rem;
+    color: #f87902;
+    transition: color 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.border-icon:hover .fa-service-icon {
+    color: #fff;
 }

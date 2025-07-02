@@ -197,7 +197,7 @@
 
 .highlight-text {
   color: var(--secondary-color);
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.422), 2px 2px 4px rgb(255, 127, 115);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.422), 2px 2px 4px rgb(32 18 3);
   font-weight: 800;
   position: relative;
 }

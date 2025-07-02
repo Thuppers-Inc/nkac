@@ -40,7 +40,8 @@
         <link rel="stylesheet" href="{{asset('assets/css/stylesheet.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/modern-carousel.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
-        <link rel="stylesheet" href="{{asset('assets/fonts/font-awesome/css/font-awesome.min.css')}}">
+        <!-- Font Awesome 5 local -->
+        <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css') }}">
         <link rel="stylesheet" href="{{asset('assets/css/slick.min.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
         
